@@ -1,0 +1,83 @@
+@media (min-width:320px) and (max-width:575px) {
+
+    /*    header top responsive start*/
+
+
+    #header-top p {
+        font-size: 13px;
+    }
+
+
+    #header-top .icon {
+        margin-top: -20px;
+    }
+
+    #header-top .icon i {
+        padding-left: 10px;
+    }
+
+    /*    header top responsive end*/
+
+
+
+    /*    navbar responsive start*/
+
+    .navbar .navbar-brand img {
+        padding-left: 12px;
+    }
+
+    .navbar ul {
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    .navbar ul li {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    /*    navbar responsive end*/
+
+
+
+
+/*    banner responsive end*/
+
+    
+    #banner-part .overlay .text{
+        padding-top: 55px;
+        padding-bottom: 50px;
+    }
+    #banner-part .overlay .text p{
+        width: auto;
+    }
+
+    #banner-part .overlay .text a{
+        margin-left: 10px;
+        padding: 5px 15px;
+    }
+
+
+/*    banner responsive end*/
+
+
+    /*    about responsive end*/
+
+
+    #about-part .row p{
+        width: auto;
+    }
+
+/*    about responsive end*/
+
+
+/*    service responsive end*/
+
+    #service-part .item .text{
+        margin-bottom: 60px;
+    }
+
+
+/*    service responsive end*/
+
+}
