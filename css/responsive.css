@@ -1,4 +1,12 @@
 @media (min-width:320px) and (max-width:575px) {
+    
+    
+    .title h3{
+        margin-left: 50px;
+    }
+    .title img{
+        margin-left: 50px;
+    }
 
     /*    header top responsive start*/
 
@@ -9,7 +17,7 @@
 
 
     #header-top .icon {
-        margin-top: -20px;
+        margin-top: -22px;
     }
 
     #header-top .icon i {
@@ -72,6 +80,9 @@
 
 
 /*    service responsive end*/
+    #service-part{
+        margin-bottom: 0;
+    }
 
     #service-part .item .text{
         margin-bottom: 60px;
@@ -80,4 +91,76 @@
 
 /*    service responsive end*/
 
+    
+    
+    
+    #testimonial-part{
+        margin-bottom: 0;
+    }
+    #testimonial-part .feedback{
+        margin-bottom: 30px;
+    }   
+    #testimonial-part .feedback .shape{
+        left: 143px;
+    }
+    #testimonial-part .feedback .text p{
+        width: auto;
+    }
+    
+   
+    #team-part{
+        margin-bottom: 30px;
+    }
+    #team-part .item{
+        margin-bottom: 30px;
+    }
+    
+    
+    
+    
+    
+    #footer-part .flicker{
+        margin-left: 0;
+    }
+    
+    
+    #footer-part .flicker .img img{
+        margin-left: 3px;
+        margin-bottom: 8px;
+    }
+    
+    #footer-bottom{
+        margin-bottom: 0;
+    }
+    #footer-bottom p{
+        letter-spacing: 0;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 }

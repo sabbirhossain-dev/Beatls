@@ -116,9 +116,18 @@ p {
     color: #0872b9 !important;
 }
 
+.sticky{
+    position: fixed;
+    top:0;
+    width: 100%;
+    background: #ede1e1;
+    z-index: 9999;
+    
+}
 
-/*header-bottom css end*/
-/*header-bottom css end*/
+
+/*navbar css end*/
+/*navbar css end*/
 
 
 
@@ -408,12 +417,13 @@ p {
 }
 
 #team-part .item .img .overlay {
-    width: 0;
+    width: 35%;
     height: 100%;
     background: rgba(0, 0, 0, .7);
     position: absolute;
     top: 0;
     right: 0;
+    opacity: 0;
     transition: .4s;
 
 }
@@ -469,8 +479,7 @@ p {
 }
 
 #team-part .item .img:hover .overlay {
-    width: 35%;
-    overflow: hidden;
+    opacity: 1;
 }
 
 #team-part .item:hover .text h3 {
