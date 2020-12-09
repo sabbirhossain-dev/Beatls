@@ -1,10 +1,11 @@
 @media (min-width:320px) and (max-width:575px) {
-    
-    
-    .title h3{
+
+
+    .title h3 {
         margin-left: 50px;
     }
-    .title img{
+
+    .title img {
         margin-left: 50px;
     }
 
@@ -49,118 +50,471 @@
 
 
 
-/*    banner responsive end*/
+    /*    banner responsive end*/
 
-    
-    #banner-part .overlay .text{
+
+    #banner-part .overlay .text {
         padding-top: 55px;
         padding-bottom: 50px;
     }
-    #banner-part .overlay .text p{
+
+    #banner-part .overlay .text p {
         width: auto;
     }
 
-    #banner-part .overlay .text a{
+    #banner-part .overlay .text a {
         margin-left: 10px;
         padding: 5px 15px;
     }
 
 
-/*    banner responsive end*/
+    /*    banner responsive end*/
 
 
     /*    about responsive end*/
 
 
-    #about-part .row p{
+    #about-part .row p {
         width: auto;
     }
 
-/*    about responsive end*/
+    /*    about responsive end*/
 
 
-/*    service responsive end*/
-    #service-part{
+    /*    service responsive end*/
+    #service-part {
         margin-bottom: 0;
     }
 
-    #service-part .item .text{
+    #service-part .item .text {
         margin-bottom: 60px;
     }
 
 
-/*    service responsive end*/
+    /*    service responsive end*/
 
-    
-    
-    
-    #testimonial-part{
+
+    /*    testimonial responsive start*/
+
+    #testimonial-part {
         margin-bottom: 0;
     }
-    #testimonial-part .feedback{
+
+    #testimonial-part .feedback {
         margin-bottom: 30px;
-    }   
-    #testimonial-part .feedback .shape{
+    }
+
+    #testimonial-part .feedback .shape {
         left: 143px;
     }
-    #testimonial-part .feedback .text p{
+
+    #testimonial-part .feedback .text p {
         width: auto;
     }
-    
-   
-    #team-part{
+
+    /*    testimonial responsive end*/
+
+    /*    team responsive start*/
+
+    #team-part {
         margin-bottom: 30px;
     }
-    #team-part .item{
+
+    #team-part .item {
         margin-bottom: 30px;
     }
-    
-    
-    
-    
-    
-    #footer-part .flicker{
+
+    /*    team responsive end*/
+
+
+
+    /*    footer responsive start*/
+
+    #footer-part .flicker {
         margin-left: 0;
     }
-    
-    
-    #footer-part .flicker .img img{
+
+
+    #footer-part .flicker .img img {
         margin-left: 3px;
         margin-bottom: 8px;
     }
-    
-    #footer-bottom{
+
+    #footer-bottom {
         margin-bottom: 0;
     }
-    #footer-bottom p{
+
+    #footer-bottom p {
         letter-spacing: 0;
     }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
+    /*    footer responsive end*/
+
+}
+
+
+
+@media (min-width:576px) and (max-width:767px) {
+
+
+    /*    header top responsive start*/
+
+
+    #header-top p {
+        font-size: 13px;
+    }
+
+
+    #header-top .icon {
+        margin-top: -22px;
+    }
+
+    #header-top .icon i {
+        padding-left: 10px;
+    }
+
+    /*    header top responsive end*/
+
+
+
+    /*    navbar responsive start*/
+
+    .navbar .navbar-brand img {
+        padding-left: 12px;
+    }
+
+    .navbar ul {
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    .navbar ul li {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    /*    navbar responsive end*/
+
+
+
+
+    /*    banner responsive end*/
+
+
+    #banner-part .overlay .text {
+        padding-top: 55px;
+        padding-bottom: 50px;
+    }
+
+    #banner-part .overlay .text p {
+        width: auto;
+    }
+
+    #banner-part .overlay .text a {
+        margin-left: 10px;
+        padding: 5px 15px;
+    }
+
+
+    /*    banner responsive end*/
+
+
+    /*    about responsive end*/
+
+
+    #about-part .row p {
+        width: auto;
+    }
+
+    /*    about responsive end*/
+
+
+    /*    service responsive end*/
+
+    #service-part {
+        margin-bottom: 0;
+    }
+
+    #service-part .item {
+        margin-bottom: 60px !important;
+    }
+
+
+    /*    service responsive end*/
+
+
+    /*    testimonial responsive start*/
+
+    #testimonial-part {
+        margin-bottom: 0;
+    }
+
+    #testimonial-part .feedback {
+        margin-bottom: 30px;
+    }
+
+    #testimonial-part .feedback .shape {
+        left: 120px;
+    }
+
+    #testimonial-part .feedback .text p {
+        width: auto;
+    }
+
+    /*    testimonial responsive end*/
+
+    /*    team responsive start*/
+
+    #team-part {
+        margin-bottom: 30px;
+    }
+
+    #team-part .item {
+        margin-bottom: 30px;
+    }
+
+    /*    team responsive end*/
+
+
+
+    /*    footer responsive start*/
+
+
+    #footer-part .contact {
+        margin-left: 30px;
+    }
+
+
+    #footer-part .flicker {
+        margin-left: 42px;
+    }
+
+
+    #footer-part .flicker .img img {
+        margin-left: 3px;
+        margin-bottom: 8px;
+    }
+
+    #footer-bottom {
+        margin-bottom: 0;
+    }
+
+    #footer-bottom p {
+        letter-spacing: 0;
+    }
+
+    /*    footer responsive end*/
+
+
+}
+
+
+
+
+@media (min-width:768px) and (max-width:991px) {
+
+
+    /*    header top responsive start*/
+
+
+    #header-top p {
+        font-size: 13px;
+    }
+
+
+    #header-top .icon {
+        margin-top: -22px;
+    }
+
+    #header-top .icon i {
+        padding-left: 10px;
+    }
+
+    /*    header top responsive end*/
+
+
+
+    /*    navbar responsive start*/
+
+    .navbar .navbar-brand img {
+        padding-left: 12px;
+    }
+
+    .navbar ul {
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    .navbar ul li {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    /*    navbar responsive end*/
+
+
+
+
+    /*    banner responsive end*/
+
+
+    #banner-part .overlay .text {
+        padding-top: 55px;
+        padding-bottom: 50px;
+    }
+
+    #banner-part .overlay .text p {
+        width: auto;
+    }
+
+    #banner-part .overlay .text a {
+        margin-left: 10px;
+        padding: 5px 15px;
+    }
+
+
+    /*    banner responsive end*/
+
+
+    /*    about responsive end*/
+
+
+    #about-part .row p {
+        width: auto;
+    }
+
+    #about-part .row .para {
+        padding-top: 0px;
+        padding-bottom: 20px;
+    }
+
+    #about-part .row img {
+        margin-top: 36px;
+    }
+
+    /*    about responsive end*/
+
+
+    /*    service responsive end*/
+
+    #service-part {
+        margin-bottom: 0;
+    }
+
+    #service-part .item {
+        margin-bottom: 60px !important;
+    }
+
+    #service-part .item .text p {
+        width: auto;
+        padding: 20px 10px;
+    }
+
+
+    /*    service responsive end*/
+
+
+    /*    testimonial responsive start*/
+
+    #testimonial-part {
+        margin-bottom: 0;
+    }
+
+    #testimonial-part .feedback {
+        margin-bottom: 30px;
+    }
+
+    #testimonial-part .feedback .shape {
+        left: 165px;
+    }
+
+    #testimonial-part .feedback .text p {
+        width: auto;
+    }
+
+    /*    testimonial responsive end*/
+
+    /*    team responsive start*/
+
+    #team-part {
+        margin-bottom: 30px;
+    }
+
+    #team-part .item {
+        margin-bottom: 30px;
+    }
+
+    /*    team responsive end*/
+
+
+
+    /*    footer responsive start*/
+
+
+    #footer-part .contact {
+        margin-left: 30px;
+    }
+
+
+    #footer-part .flicker {
+        margin-left: 90px;
+    }
+
+
+    #footer-part .flicker .img img {
+        margin-left: 3px;
+        margin-bottom: 8px;
+    }
+
+    #footer-bottom {
+        margin-bottom: 0;
+    }
+
+    #footer-bottom p {
+        letter-spacing: 0;
+    }
+
+    /*    footer responsive end*/
+
+
+
+}
+
+
+
+
+@media (min-width:992px) and (max-width:1199px) {
+
+
+
+
+    /*    about responsive start*/
+
+    #about-part .row p {
+        width: auto;
+    }
+
+    #about-part .row .para {
+        padding-top: 16px;
+        padding-bottom: 30px;
+    }
+
+    /*    about responsive end*/
+
+
+     #testimonial-part .feedback .shape {
+        left: 224px;
+    }
+
+
+#footer-part .contact {
+        width: 260px;
+    }
+
+    #footer-part .links{
+        margin-left: 35px;
+    }
+
+
+
 }
